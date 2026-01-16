@@ -39,7 +39,8 @@ Since this project relies on high-performance C++ libraries, you must clone recu
 
 ```bash
 # 1. Clone the repository with submodules (for Eigen)
-git clone --recursive [https://github.com/PA-PB/fast-spice-llc.git](https://github.com/PA-PB/fast-spice-llc.git)
+git clone https://github.com/PA-PB/fast-spice-llc.git
+git submodule update --init --recursive
 cd fast-spice-llc
 
 # 2. Build and Install (Compiles C++ backend)
@@ -54,7 +55,8 @@ fast-spice-llc/
 │   └── bindings.cpp    # Python/C++ Interface
 ├── fast_spice/         # Python Package
 ├── extern/             # Third-party libraries (Eigen)
-├── showcase.py         # Full demo script
+├──Exemples/
+│   └── showcase.py         # Full demo script
 └── setup.py            # Compilation & Build Configuration
 ```
 ## Example 
