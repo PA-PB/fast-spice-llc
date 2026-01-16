@@ -1,13 +1,13 @@
-# Fast SPICE: High-Performance Power Electronics Simulator
+# Fast SIM: High-Performance Power Electronics Simulator
 
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)]()
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
 [![C++](https://img.shields.io/badge/C%2B%2B-17-blue)](https://isocpp.org/)
 [![License](https://img.shields.io/badge/license-MIT-green)]()
 
-**Fast SPICE** is a custom-built circuit simulator designed specifically for the rigorous demands of **Power Electronics**.
+**Fast SIM** is a custom-built circuit simulator designed specifically for the rigorous demands of **Power Electronics**.
 
-Unlike general-purpose simulators (like SPICE or PSIM) that can take minutes to settle into steady-state, **Fast SPICE** utilizes a hybrid C++/Python architecture and the **Shooting Method** to solve the boundary value problem directly, finding the steady-state in **milliseconds**.
+Unlike general-purpose simulators (like SPICE or PSIM) that can take minutes to settle into steady-state, **Fast SIM** utilizes a hybrid C++/Python architecture and the **Shooting Method** to solve the boundary value problem directly, finding the steady-state in **milliseconds**.
 
 ---
 
